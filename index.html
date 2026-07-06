@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakari Wawakuna</title>
+  <style>
+    :root{--cream:#fff8f2;--pink:#f8c8d3;--mint:#dfeee6;--sage:#82a983;--orange:#f3a563;--ink:#243447;--paper:#fffdf8;--shadow:0 16px 36px rgba(36,52,71,.14)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial, Helvetica, sans-serif;background:linear-gradient(135deg,#fff8f2,#fff);color:var(--ink);line-height:1.6;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at 10% 20%,rgba(248,200,211,.35),transparent 30%),radial-gradient(circle at 90% 0%,rgba(223,238,230,.55),transparent 32%);z-index:-2}.doodle{position:absolute;opacity:.88;pointer-events:none}.apple{width:60px;right:9%;top:125px}.sun{width:74px;left:7%;top:540px}.flower{width:92px;right:3%;top:850px}.rainbow{width:95px;left:5%;bottom:80px}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,248,242,.92);backdrop-filter:blur(9px);border-bottom:1px solid #f1d7d7}nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:13px 20px}.brand{font-weight:800;letter-spacing:.5px}.links a{margin-left:14px;color:var(--ink);text-decoration:none;font-weight:700}.links a:hover{color:var(--sage)}
+    section{max-width:1100px;margin:auto;padding:54px 20px}.hero{display:grid;grid-template-columns:1fr .85fr;gap:32px;align-items:center;padding-top:72px}.badge{display:inline-block;background:var(--mint);padding:8px 14px;border-radius:999px;font-weight:800;color:#436b4b}h1{font-size:clamp(2.4rem,7vw,5rem);line-height:1;margin:16px 0 10px}h2{font-size:2rem;margin:0 0 16px}h3{margin:0 0 10px;font-size:1.25rem}.btn{display:inline-block;background:var(--sage);color:white;text-decoration:none;padding:13px 18px;border-radius:14px;font-weight:800;margin-top:10px}
+    .paper{background:var(--paper);border:1px solid #f0dfd5;border-radius:26px;padding:25px;box-shadow:var(--shadow)}.paper.pink{background:#fff1f4}.paper.mint{background:#f3faf6}.paper.orange{background:#fff3e7}.photo{width:100%;height:100%;object-fit:cover;border-radius:22px;box-shadow:var(--shadow);border:6px solid #fff}.logo-card{background:#fff;border:6px solid var(--pink);border-radius:30px;padding:15px;box-shadow:var(--shadow);transform:rotate(1deg)}.logo-card img{width:100%;display:block;border-radius:20px}.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.gallery img{width:100%;height:190px;object-fit:cover;border-radius:22px;border:5px solid #fff;box-shadow:var(--shadow);background:white}.gallery .tall{grid-row:span 2;height:395px}.pillbox{display:flex;gap:10px;flex-wrap:wrap}.pill{background:#fff;border:1px solid #ecd7cc;border-radius:999px;padding:8px 12px;font-weight:800}.list li{margin:8px 0}.thanks{text-align:center;background:linear-gradient(135deg,#fbe4e8,#e8f3ec);border-radius:34px;padding:48px 20px;position:relative;overflow:hidden}.thanks h2{font-size:3rem}.footer{text-align:center;padding:26px;color:#6b6b6b}
+    @media(max-width:850px){.hero,.split{grid-template-columns:1fr}.grid3,.gallery{grid-template-columns:1fr 1fr}.links{display:none}.gallery img,.gallery .tall{height:220px;grid-row:auto}.logo-card{transform:none}}
+    @media(max-width:520px){.grid3,.gallery{grid-template-columns:1fr}section{padding:42px 16px}.gallery img{height:240px}}
+  </style>
+</head>
+<body>
+  <img class="doodle apple" src="assets/decor-manzana.png" alt="decoración">
+  <img class="doodle sun" src="assets/decor-sol.png" alt="decoración">
+  <img class="doodle flower" src="assets/decor-flores.png" alt="decoración">
+  <header><nav><div class="brand">Pakari Wawakuna</div><div class="links"><a href="#propuesta">Propuesta</a><a href="#mision">Misión</a><a href="#normativa">Normativa</a><a href="#galeria">Galería</a></div></nav></header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <span class="badge">Centro Infantil Intercultural</span>
+        <h1>Pakari Wawakuna</h1>
+        <p><strong>Hunti Yachay Pacha.</strong> Nuestros niños y niñas crecen con amor. Acompañamos su desarrollo desde el inicio.</p>
+        <p>Proyecto enfocado en educación inicial, estimulación temprana, inclusión, participación familiar e identidad cultural.</p>
+        <a class="btn" href="#propuesta">Ver información</a>
+      </div>
+      <div class="logo-card"><img src="assets/logo-pakari.jpg" alt="Logo Pakari Wawakuna"></div>
+    </section>
+
+    <section id="propuesta" class="split">
+      <div class="paper pink">
+        <h2>Propuesta pedagógica</h2>
+        <p>El Centro Infantil de Desarrollo y Estimulación Temprana Intercultural “Pakari Wawakuna” se fundamenta en el Currículo de Educación Inicial del Ecuador.</p>
+        <p>Promueve el desarrollo integral de niños y niñas de 3 meses a 5 años mediante el juego, la estimulación temprana y la participación familiar, en un ambiente inclusivo y seguro que respeta las necesidades y ritmos de aprendizaje de cada niño.</p>
+      </div>
+      <div class="gallery">
+        <img class="tall" src="assets/nina-actividad.jpg" alt="Niña en actividad">
+        <img src="assets/nino-rojo.jpg" alt="Niño jugando">
+        <img src="assets/bebe-pintura.jpg" alt="Bebé pintando">
+        <img src="assets/nina-lavado.jpg" alt="Niña en actividad de lavado">
+      </div>
+    </section>
+
+    <section id="mision">
+      <div class="grid3">
+        <div class="paper mint"><h3>Misión</h3><p>Brindar una educación inicial integral, comunitaria e intercultural a niños y niñas de 3 meses a 5 años de la parroquia Calderón, promoviendo el desarrollo cognitivo, emocional, físico y social.</p></div>
+        <div class="paper orange"><h3>Visión</h3><p>Ser un centro reconocido en Calderón por ofrecer educación de calidad con pertinencia cultural, participación familiar y compromiso con el cuidado de la Pacha Mama.</p></div>
+        <div class="paper pink"><h3>Valores</h3><div class="pillbox"><span class="pill">Respeto</span><span class="pill">Responsabilidad</span><span class="pill">Solidaridad</span><span class="pill">Inclusión</span><span class="pill">Empatía</span><span class="pill">Interculturalidad</span></div></div>
+      </div>
+    </section>
+
+    <section class="split">
+      <img class="photo" src="assets/logotipo-pakari.jpg" alt="Logotipo Pakari Wawakuna">
+      <div class="gallery">
+        <img src="assets/bebe-sensorial.jpg" alt="Bebé en actividad sensorial">
+        <img src="assets/bebe-sonajero.jpg" alt="Bebé con juguete">
+        <img src="assets/nina-juego.jpg" alt="Niña jugando">
+        <img src="assets/nino-aula.jpg" alt="Niño en aula">
+      </div>
+    </section>
+
+    <section id="normativa" class="split">
+      <div class="paper">
+        <h2>Sistematización del acuerdo de apertura - MINEDUC</h2>
+        <p>El proyecto busca brindar educación inicial de calidad, basada en la normativa del Ministerio de Educación, orientada al desarrollo integral de niños y niñas en un entorno seguro, inclusivo e intercultural.</p>
+        <h3>Requisitos principales</h3>
+        <ul class="list">
+          <li>Solicitud de creación ante la Dirección Distrital de Educación.</li>
+          <li>Propuesta pedagógica basada en el Currículo de Educación Inicial del Ecuador.</li>
+          <li>Cumplimiento de requisitos legales y administrativos.</li>
+          <li>Infraestructura adecuada, segura y accesible.</li>
+          <li>Justificación del nombre institucional e inclusión educativa.</li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <img src="assets/ministerio-educacion.png" alt="Ministerio de Educación">
+        <img src="assets/aula-infantil.jpg" alt="Aula infantil">
+        <img src="assets/estimulo-mesa.jpg" alt="Actividad de estimulación">
+        <img src="assets/nino-clase.jpg" alt="Niño en clase">
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="gallery">
+        <img src="assets/institucion-exterior.jpg" alt="Exterior de institución">
+        <img src="assets/estudiantes-docente.jpg" alt="Estudiantes con docente">
+        <img src="assets/edificio-educativo.jpg" alt="Edificio educativo">
+        <img src="assets/clase-aula.jpg" alt="Clase en aula">
+      </div>
+      <div class="paper mint">
+        <h2>Estatuto institucional</h2>
+        <p>El centro contará con un estatuto que establece su identificación, ubicación, oferta de Educación Inicial y estimulación temprana, además de la misión, visión, valores, estructura administrativa y académica.</p>
+        <p>También incluirá normas para admisión, matrícula, planificación curricular, evaluación y actividades institucionales, cumpliendo con la Constitución, la LOEI y las disposiciones del Ministerio de Educación.</p>
+      </div>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería del proyecto</h2>
+      <div class="gallery">
+        <img src="assets/niños-aprendiendo.jpg" alt="Niños aprendiendo">
+        <img src="assets/niños-mesa.jpg" alt="Niños en mesa">
+        <img src="assets/niños-clase.jpg" alt="Niños en clase">
+        <img src="assets/aula-niños.jpg" alt="Aula con niños">
+      </div>
+    </section>
+
+    <section id="conclusion">
+      <div class="thanks">
+        <img class="doodle rainbow" src="assets/decor-arcoiris.png" alt="decoración">
+        <h2>Conclusión</h2>
+        <p>La creación y funcionamiento de un Centro de Educación Inicial requiere cumplir requisitos legales, administrativos, pedagógicos y de infraestructura. Estos garantizan una educación segura, inclusiva y de calidad para el desarrollo integral de los niños y niñas.</p>
+        <h2>¡Gracias!</h2>
+      </div>
+    </section>
+  </main>
+  <div class="footer">Página web creada a partir de imágenes extraídas del PDF de Pakari Wawakuna.</div>
+</body>
+</html>

@@ -1,2 +1,3 @@
-# Pakari
-Pakari
+# Pakari Wawakuna
+
+Página web con imágenes extraídas del PDF.
